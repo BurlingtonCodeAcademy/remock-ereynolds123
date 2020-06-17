@@ -16,13 +16,6 @@
     padding-bottom: 38px;
 }
 
-#hr{
-    overflow:hidden;
-    width: 65%;
-    margin: auto;
-    padding-bottom: 38px;
-
-}
 
 #header h2{
     color:grey;
@@ -33,6 +26,12 @@
 
 #header h2 strong{
     color:black;
+}
+
+
+#container{
+    display: flex;
+    justify-content: space-around;
 }
 
 .images{
@@ -46,12 +45,12 @@
     width: 150px;
     background-color: darkgreen;
     justify-content: center;
-    grid-area: rectangle;
 }
 
-
-#container{
+.wholepage{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
 }
-
