@@ -16,19 +16,42 @@
     padding-bottom: 38px;
 }
 
-
-#container{
-    display: grid;
-    width: 100vw;
-    height: 1200px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    grid-gap: 1rem;
-}
-
 #hr{
     overflow:hidden;
     width: 65%;
     margin: auto;
+    padding-bottom: 38px;
 
 }
+
+#header h2{
+    color:grey;
+    font-family: Helvetica;
+    font-size: .75em;
+    padding-bottom: 14px;
+}
+
+#header h2 strong{
+    color:black;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rectangle{
+    height: 75px;
+    width: 150px;
+    background-color: darkgreen;
+    justify-content: center;
+    grid-area: rectangle;
+}
+
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+
