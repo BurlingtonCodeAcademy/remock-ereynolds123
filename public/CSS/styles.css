@@ -1,3 +1,14 @@
+/*CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: grey;
+}
+
+/* Header Section */
+
 .header {
     text-align: center;
 }
@@ -26,10 +37,19 @@
 }
 
 
-h2 strong{
+strong{
     color: black;
 }
 
+
+/* Features */
+.features{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
 
 #container{
     display: flex;
@@ -40,19 +60,130 @@ h2 strong{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 2em;
 }
 
 .rectangle{
     height: 15vh;
     width: 18vw;
-    background-color: darkgreen;
+    background-color: lightgreen;
     justify-content: center;
+    border: 2px solid lightgrey
 }
 
-.features{
+/* Buttons*/
+
+/* Red Button was changed to blue for visual pleasantness */
+.redButton{
+    background-color: lightblue;
+}
+
+#centerButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greyButton {
+    background-color: darkgrey;
+    color: white;
+}
+
+/* Main Section including the quote. */
+#main{
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+    
+}
+
+.quote{
+    margin: 2em 0px 2em 0px;
+    padding: 4em;
+    background-color: darkgrey;
+    max-width: 100vw;
+    text-align: center;
+    color: white;
+}
+
+.post{
+    margin: 10vw 1em 10vw 2em;
+    width: 40vw;
+    
+
+}
+
+.largerRectangle{
+    height: 22vh;
+    width: 40vw;
+    background-color: lightgreen;
+    justify-content: center;
+    border: 2px solid lightgrey
+}
+
+.post p{
+    width: 40vw;
+}
+
+/* Side bar */
+.side-bar{
+    width: 20vw;
+}
+
+.squareImageWrapper {
+    height: 12vh;
+    width: 12vw;
+    background-color: lightgreen;
+    justify-content: center;
+    border: 2px solid lightgrey;
+    float: left;
+}
+
+.footer{
+    width: 100vw;
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
-    width: 60vw;
-    margin: auto;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/* Footer Area */
+#footerContent{
+    display: flex;
+}
+
+#nameEmail{
+    display: flex;
+   
+}
+
+.footer-content{
+    display: flex;
+    width: 30vw;
+}
+
+#target{
+    font-size: xx-small;
+    width: 50vw;
+}
+
+#contactLinks{
+    display: flex;
+}
+
+#rightContacts{
+    display: flex;
+}
+
+.footerFormArea{
+    margin-top: 10px;
+    resize: none;
+}
+
+/* Logos and Info */
+.contactLogos{
+    width: 5vw;
+}
+
