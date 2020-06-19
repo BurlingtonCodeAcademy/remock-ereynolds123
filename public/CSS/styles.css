@@ -66,7 +66,7 @@ strong{
 .rectangle{
     height: 15vh;
     width: 18vw;
-    background-color: lightgreen;
+    background-color: #ff99ff;
     justify-content: center;
     border: 2px solid lightgrey
 }
@@ -116,7 +116,7 @@ strong{
 .largerRectangle{
     height: 22vh;
     width: 40vw;
-    background-color: lightgreen;
+    background-color:  #ff99ff;;
     justify-content: center;
     border: 2px solid lightgrey
 }
@@ -133,7 +133,7 @@ strong{
 .squareImageWrapper {
     height: 12vh;
     width: 12vw;
-    background-color: lightgreen;
+    background-color:  #ff99ff;;
     justify-content: center;
     border: 2px solid lightgrey;
     float: left;
@@ -162,18 +162,26 @@ strong{
 .footer-content{
     display: flex;
     width: 30vw;
+    margin-left: 30px;
 }
 
 #target{
     font-size: xx-small;
-    width: 50vw;
+    width: 30vw;
+    margin-left: 30px;
 }
 
 #contactLinks{
     display: flex;
+    width: 30vw;
+    margin-left: 30px;
 }
 
 #rightContacts{
+    display: flex;
+}
+
+#leftContacts{
     display: flex;
 }
 
@@ -184,6 +192,10 @@ strong{
 
 /* Logos and Info */
 .contactLogos{
-    width: 5vw;
+    width: 25px;
+}
+
+#rightInfo p{
+    font-size: xx-small;
 }
 
