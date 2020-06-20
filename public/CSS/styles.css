@@ -16,7 +16,7 @@
 .header h1{
     color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 30px;
     padding: 0.001em;
 }
 
@@ -39,6 +39,37 @@
 
 strong{
     color: black;
+}
+
+
+/* Links and Buttons */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: blue;
+    color: white;
+}
+
+a.taggedH{
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0.001em;
+}
+
+button:hover{
+    opacity: 30%;
+    background-color: grey;
+} 
+
+input:focus{
+    background-color: grey;
+}
+
+textarea:focus{
+    background-color: grey;
 }
 
 
@@ -198,4 +229,67 @@ strong{
 #rightInfo p{
     font-size: xx-small;
 }
+
+/* Blog Post Page */
+
+.largestRectangle{
+    height: 40vh;
+    width: 90%;
+    background-color:  #ff99ff;
+    border: 2px solid lightgrey;
+    padding-bottom: 2em;
+    justify-content: center;
+    display: flex;
+}
+
+.rectanglePost{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin: 5vw;
+}
+
+.postPara{
+    width: 90%;
+}
+
+/*Continue Reading Page */
+.continueColumns{
+    display: flex;
+    margin: 15vw;
+    text-align:left;
+}
+
+.continueRectangle{
+    height: 25vh;
+    width: 95%;
+    background-color:  #ff99ff;
+    border: 2px solid lightgrey;
+    padding-bottom: 2em;
+    justify-content: center;
+    display: flex;
+}
+
+.continueImage{
+    width: 20vw;
+    float: left;
+}
+
+.continueContent{
+    width: 95%;
+}
+
+/*Learn More Page*/
+.mainLearnMore{
+    width:60vw;
+    margin: 50px 20vw 50px 20vw;
+    display: flex;
+}
+
+.rightLearnMore{
+    width: 40vw;
+    margin-left: 25px;
+    
+}
+
 
