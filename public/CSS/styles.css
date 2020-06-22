@@ -1,0 +1,295 @@
+/*CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: grey;
+}
+
+/* Header Section */
+
+.header {
+    text-align: center;
+}
+
+.header h1{
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0.001em;
+}
+
+.header h4{
+    color:grey;
+    font-family: Helvetica;
+    font-size: .5em;
+    padding-bottom: 38px;
+}
+
+
+.sectionTitle{
+    color:grey;
+    font-family: Helvetica;
+    font-size: .75em;
+    padding-top: 38px;
+    padding-bottom: 14px;
+}
+
+
+strong{
+    color: black;
+}
+
+
+/* Links and Buttons */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: blue;
+    color: white;
+}
+
+a.taggedH{
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0.001em;
+}
+
+button:hover{
+    opacity: 30%;
+    background-color: grey;
+} 
+
+input:focus{
+    background-color: grey;
+}
+
+textarea:focus{
+    background-color: grey;
+}
+
+
+/* Features */
+.features{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.rectangle{
+    height: 15vh;
+    width: 18vw;
+    background-color: #ff99ff;
+    justify-content: center;
+    border: 2px solid lightgrey
+}
+
+/* Buttons*/
+
+/* Red Button was changed to blue for visual pleasantness */
+.redButton{
+    background-color: lightblue;
+}
+
+#centerButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greyButton {
+    background-color: darkgrey;
+    color: white;
+}
+
+/* Main Section including the quote. */
+#main{
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+    
+}
+
+.quote{
+    margin: 2em 0px 2em 0px;
+    padding: 4em;
+    background-color: darkgrey;
+    max-width: 100vw;
+    text-align: center;
+    color: white;
+}
+
+.post{
+    margin: 10vw 1em 10vw 2em;
+    width: 40vw;
+    
+
+}
+
+.largerRectangle{
+    height: 22vh;
+    width: 40vw;
+    background-color:  #ff99ff;;
+    justify-content: center;
+    border: 2px solid lightgrey
+}
+
+.post p{
+    width: 40vw;
+}
+
+/* Side bar */
+.side-bar{
+    width: 20vw;
+}
+
+.squareImageWrapper {
+    height: 12vh;
+    width: 12vw;
+    background-color:  #ff99ff;;
+    justify-content: center;
+    border: 2px solid lightgrey;
+    float: left;
+}
+
+.footer{
+    width: 100vw;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer Area */
+#footerContent{
+    display: flex;
+}
+
+#nameEmail{
+    display: flex;
+   
+}
+
+.footer-content{
+    display: flex;
+    width: 30vw;
+    margin-left: 30px;
+}
+
+#target{
+    font-size: xx-small;
+    width: 30vw;
+    margin-left: 30px;
+}
+
+#contactLinks{
+    display: flex;
+    width: 30vw;
+    margin-left: 30px;
+}
+
+#rightContacts{
+    display: flex;
+}
+
+#leftContacts{
+    display: flex;
+}
+
+.footerFormArea{
+    margin-top: 10px;
+    resize: none;
+}
+
+/* Logos and Info */
+.contactLogos{
+    width: 25px;
+}
+
+#rightInfo p{
+    font-size: xx-small;
+}
+
+/* Blog Post Page */
+
+.largestRectangle{
+    height: 40vh;
+    width: 90%;
+    background-color:  #ff99ff;
+    border: 2px solid lightgrey;
+    padding-bottom: 2em;
+    justify-content: center;
+    display: flex;
+}
+
+.rectanglePost{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin: 5vw;
+}
+
+.postPara{
+    width: 90%;
+}
+
+/*Continue Reading Page */
+.continueColumns{
+    display: flex;
+    margin: 15vw;
+    text-align:left;
+}
+
+.continueRectangle{
+    height: 25vh;
+    width: 95%;
+    background-color:  #ff99ff;
+    border: 2px solid lightgrey;
+    padding-bottom: 2em;
+    justify-content: center;
+    display: flex;
+}
+
+.continueImage{
+    width: 20vw;
+    float: left;
+}
+
+.continueContent{
+    width: 95%;
+}
+
+/*Learn More Page*/
+.mainLearnMore{
+    width:60vw;
+    margin: 50px 20vw 50px 20vw;
+    display: flex;
+}
+
+.rightLearnMore{
+    width: 40vw;
+    margin-left: 25px;
+    
+}
+
+
